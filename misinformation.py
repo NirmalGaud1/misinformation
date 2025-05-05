@@ -55,11 +55,3 @@ if st.button("Analyze"):
         """)
     else:
         st.warning("Please enter some text to analyze!")
-
-# About section
-st.markdown("---")
-st.markdown("""
-**About this tool:**
-- Achieves 92% test accuracy
-- Uses LSTM with Attention mechanism
-- Processes text through neural network embeddings
